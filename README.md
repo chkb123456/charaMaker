@@ -1,5 +1,5 @@
 # charaMaker
-A simple character picture maker for KuroScripter
+A simple character picture maker for KuroScripter, which convert a png file with transparent pixels to a bmp file, and fill transparent pixels with specialized color.
 
 ## Build
 ### On Windows
@@ -8,4 +8,5 @@ A simple character picture maker for KuroScripter
     g++ -o charaMaker charaMaker.cpp
 
 ## Usage
-    charaMaker 
+    charaMaker <-i PNGFile> [-o BMPFile] [-c TransparentColor]
+    
